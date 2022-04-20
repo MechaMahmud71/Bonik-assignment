@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "63da52a7-b466-451d-b1af-e72651c454a9",
+		"name": "Bonik Asssingment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/get-all-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"get-all-data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fetch data between Dates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/2022-02-05/2022-02-03/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"2022-02-05",
+						"2022-02-03",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Insert data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\":\"2022-02-18\",\r\n    \"status\":1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/insert-data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"insert-data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
