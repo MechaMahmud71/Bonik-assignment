@@ -1,5 +1,19 @@
 # BONIK ASSIGNMENT
 
+# INSTALL THE PACKAGES
+
+For NPM
+
+```
+npm i
+```
+
+FOR YARN
+
+```
+yarn install
+```
+
 # Start backend
 
 ```
@@ -15,7 +29,6 @@ npm start
 
 ```
 http://localhost:5000/get-all-data
-
 ```
 
 2.Fetch Data Between Dates
