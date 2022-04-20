@@ -3,12 +3,9 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 const path = require("path");
 dotenv.config({ path: "./config/config.env" });
-const moment = require("moment");
 
 require("colors");
 require("./config/db");
-
-// moment().format("YYYY-MM-DD");
 
 const route = require("./routes/router");
 
@@ -19,10 +16,6 @@ app.use(express.json());
 
 
 app.use("/", route);
-
-
-
-
 
 const PORT = process.env.PORT || 5000;
 
